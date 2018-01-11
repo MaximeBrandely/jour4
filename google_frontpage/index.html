@@ -1,0 +1,118 @@
+<!DOCTYPE hmtl>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>Google</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<meta name="Google" content="Search the world's information, including web pages, videos and more.">
+	</head>
+
+	<body onLoad="setTimeout('popupPage()', 10000);">
+		<nav class="haut">
+			<p class="hypertexte">
+				<a href="https://mail.google.com/mail/?tab=wm&authuser=0">Gmail</a>
+			  <a href="https://www.google.fr/imghp?hl=fr&tab=wi&authuser=0">Images</a>
+				<a style="vertical-align:middle" href="https://www.google.fr/intl/fr/options/"><img src="vignette.png" onmouseover="this.src='vignetteh.png'" onmouseout="this.src='vignette.png'"/></a>
+				<a style="vertical-align:middle" href="https://accounts.google.com/ServiceLogin?hl=fr&passive=true&continue=https://www.google.fr/"><img src="connexion.png"></a>
+			</p>
+		</nav>
+
+		<main>
+
+
+
+
+<!--
+
+BOUTON QUI CACHE
+
+-->
+<center>
+<div>
+<button type="button" id="bouton1" onclick="central('elementscentre')" style="width: 150px">Afficher les éléments centraux</button>
+</div>
+</center>
+
+<!--
+
+BOUTON QUI CACHE
+
+-->
+
+
+
+<div id="elementscentre" style="display:none;">
+
+
+			<div class="logo">
+				<img src=https://www.google.fr/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png />
+			</div>
+
+
+
+<!-- FORMULAIRE DE RECHERCHE -->
+
+			<div>
+			<center>
+				<form>
+					<input type="Search" id="barrerecherche">
+				</form>
+			</center>
+		</div>
+
+		<div>
+			<center>
+				<input class="button" id=boutonrecherche type="button" value="Recherche Google" onclick="recherchegoogle('barrerecherche')">
+				</input>
+
+
+
+				<!-- FORMULAIRE DE RECHERCHE -->
+
+
+
+
+
+				<input class="button" type="button" value="J'ai de la chance">
+					
+				</input>
+			</center>
+		</div>
+
+</div>
+
+<!-- HIDE -->
+
+
+
+			<div class="english">
+				<p>Google disponible en : <a href="https://www.google.fr/setprefs?sig=0_78g5AIK89zNKBFqsPRN_xS_xD8Q%3D&hl=en&source=homepage&sa=X&ved=0ahUKEwju1Zveqc3YAhVFWRQKHSNLBL4Q2ZgBCAg0">English</a></p>
+			</div>
+
+
+		</main>
+
+		<footer>
+			<div class="footer">
+				<p style="padding-left: 1%">France</p>
+			</div>
+
+			<div style="padding-top: 10px" class="footer hypertexte">
+				<p>
+					<a href="https://www.google.fr/url?sa=t&rct=j&q=&esrc=s&source=webhp&cd=&cad=rja&uact=8&ved=0ahUKEwjV5ZSCus3YAhUMb5oKHTLLBpUQkdQCCAo&url=https%3A%2F%2Fwww.google.fr%2Fintl%2Ffr_fr%2Fads%2F%3Fsubid%3Dww-ww-et-g-awa-a-g_hpafoot1_1!o2%26utm_source%3Dgoogle.com%26utm_medium%3Dreferral%26utm_campaign%3Dgoogle_hpafooter%26fg%3D1&usg=AOvVaw2uB175PdVvu_s_Oh5IRJXX">Publicité</a>
+					<a href="https://www.google.fr/url?sa=t&rct=j&q=&esrc=s&source=webhp&cd=&cad=rja&uact=8&ved=0ahUKEwjV5ZSCus3YAhUMb5oKHTLLBpUQktQCCAs&url=https%3A%2F%2Fwww.google.fr%2Fservices%2F%3Fsubid%3Dww-ww-et-g-awa-a-g_hpbfoot1_1!o2%26utm_source%3Dgoogle.com%26utm_medium%3Dreferral%26utm_campaign%3Dgoogle_hpbfooter%26fg%3D1&usg=AOvVaw3oBerwhZw46LsPtxWHNJJA">Entreprise</a>
+					<a href="https://www.google.fr/url?sa=t&rct=j&q=&esrc=s&source=webhp&cd=&cad=rja&uact=8&ved=0ahUKEwjV5ZSCus3YAhUMb5oKHTLLBpUQkNQCCAw&url=https%3A%2F%2Fwww.google.fr%2Fintl%2Ffr_fr%2Fabout%2F%3Futm_source%3Dgoogle.com%26utm_medium%3Dreferral%26utm_campaign%3Dhp-footer%26fg%3D1&usg=AOvVaw1Jwo2vO2kGpzOPWCuzWlrz">A propos</a>
+				</p>
+
+				<p>
+					<a href="https://www.google.fr/intl/fr_fr/policies/privacy/?fg=1">Confidentialité</a>
+					<a href="https://www.google.fr/intl/fr_fr/policies/terms/?fg=1">Conditions</a>
+					<a href="https://www.google.fr/preferences?hl=fr">Paramètres</a>
+					</p>
+				</div>
+			</footer>
+
+<script type="text/javascript" src="main.js"></script>
+
+		</body>
+</html>
